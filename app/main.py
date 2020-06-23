@@ -8,7 +8,7 @@ app = Flask(__name__)
 # a route where we will display a welcome message via an HTML template
 @app.route("/")
 def hello():
-    message = "Hello, Jenkins is here"
+    message = "Hello, Jenkins is here a new version"
     return render_template('index.html', message=message)
 
 # run the application
